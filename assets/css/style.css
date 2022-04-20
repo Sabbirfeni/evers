@@ -385,9 +385,9 @@ Who benefit css start
     transition: 0.3s;
     position: relative;
 }
-.who-benefit:hover {
+/* .who-benefit:hover {
     transform: translateY(-20px);
-}
+} */
 .who-benefit-animation {
     width: 100%;
     height: 190px;
@@ -603,6 +603,50 @@ blog news and review css end
 
 
 
+/************************************
+Digital solution page css start
+************************************/
+
+.heroAnimatedText {
+    font-size: 40px;
+  }
+
+  .console-underscore {
+    display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+    color: #24a213;
+    animation-name: underscore;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  }
+  @keyframes underscore {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+/************************************
+Digital solution page css end
+************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -629,6 +673,9 @@ Media query start
 
 
 @media only screen and (max-width: 600px) {
+    h2 {
+        margin-bottom: 20px;
+    }
     .margin-top-bottom {
         padding: 40px 0px;
     }
@@ -650,6 +697,9 @@ Media query start
 
     .hero  {
         height: 130vh;
+    }
+    .hero-digital {
+        height: 100vh;
     }
     .hero-text-container {
         margin-top: 50px;
@@ -687,6 +737,15 @@ Media query start
     .our-application-container {
         height: 110vh;
     }
+    
+    .heroAnimatedText {
+        font-size: 20px;
+    }
+    .who-benefit {
+        width: 100%;
+        height: 180px;
+    }
+
 }
 /************************************
 Media query end
