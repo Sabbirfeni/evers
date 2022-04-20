@@ -22,7 +22,7 @@ function openNav() {
 // Hero counter js start
 // ********************************
   const counters = document.querySelectorAll(".count");
-  const speed = 200;
+  const speed = 100;
   
   counters.forEach((counter) => {
     const updateCount = () => {
