@@ -211,9 +211,11 @@ Hero css start
     /* animation: gradient 15s ease infinite; */
 }
 .hero h1 {
-    /* color: #ffe159; */
+    color: #24a213;
 }
-
+.hero-button {
+    text-align: left;
+}
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -647,10 +649,13 @@ Media query start
 
 
     .hero  {
-        height: 140vh;
+        height: 130vh;
     }
     .hero-text-container {
         margin-top: 50px;
+    }
+    .hero-button {
+        text-align: center;
     }
     .how-works-container lottie-player {
         height: 200px;
