@@ -137,6 +137,9 @@ Header css end
 /************************************
 side-panel css Start
 ************************************/
+.sidepanel li {
+    list-style: none;
+}
 .sidepanel  {
     width: 0;
     position: fixed;
@@ -144,7 +147,7 @@ side-panel css Start
     height: 100vh;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: #24a213;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -154,7 +157,7 @@ side-panel css Start
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
   }
@@ -186,6 +189,8 @@ side-panel css Start
   .closebtn {
       left: 0px;
     }
+
+    sideContact
 /************************************
 Sidebar css start
 ************************************/
@@ -207,8 +212,6 @@ Hero css start
     /* background: linear-gradient(-45deg, #b95d41, #bd3267, #23a6d5, #1cb18e); */
     background-size: cover;
     background-attachment: fixed;
-    /* background-size: 400% 400%; */
-    /* animation: gradient 15s ease infinite; */
 }
 .hero h1 {
     color: #24a213;
@@ -443,10 +446,6 @@ Our application css end
  which-charging css start
 ************************************/
 
-.which-charging {
-    /* background-color: #000000; */
-}
-
 /************************************
 which-charging css end
 ************************************/
@@ -491,20 +490,18 @@ management-software css end
 /************************************
 CMS css start
 ************************************/
-.CMS-container {
-    /* background-color: #000000; */
-}
+
 .CMS {
     width: 100%;
     height: 250px;
     text-align: center;
     border: 1px solid #dbdbdb;
     border-radius: 8px;
-    color: black;
+    color: #ffffff;
     transition: 0.3s;
     position: relative;
     padding: 40px;
-    background-color: #ffffff;
+    background-color: #24a213;
 }
 .CMS img {
     width: 80px;
@@ -639,8 +636,39 @@ Digital solution page css end
 
 
 
+/************************************
+Slider css start
+************************************/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+}
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
 
-
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+/************************************
+Slider css end
+************************************/
 
 
 

@@ -14,8 +14,97 @@
     <title>Evers-ev | Home</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/fav icon.png">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <style>
         
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /* background-color: black; */
+    /* background: linear-gradient(-45deg, #b95d41, #bd3267, #23a6d5, #1cb18e); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+        @media only screen and (max-width: 600px) {
+    h2 {
+        margin-bottom: 20px;
+    }
+    .margin-top-bottom {
+        padding: 40px 0px;
+    }
+    .openbtn {
+        top: 0px;
+        right: 10px;
+        font-size: 28px;
+    }
+    .header-area {
+        padding: 10px 20px;
+    }
+    .logo-container {
+        width: 70%;
+    }
+    .nav-item-container {
+        width: 30%;
+    }
+
+
+    .hero  {
+        height: 130vh;
+    }
+    .hero-digital {
+        height: 100vh;
+    }
+    .hero-text-container {
+        margin-top: 50px;
+    }
+    .hero-button {
+        text-align: center;
+    }
+    .how-works-container lottie-player {
+        height: 200px;
+    }
+    .work-system {
+        padding: 0px 40px;
+        text-align: center;
+    }
+    /* Hero Counter css start  */
+    .counter {
+        padding-right: 0px;
+        margin-right: 0px;
+        position: relative;
+    }
+    .counter h3 {
+        font-weight: bold;
+    }
+    .counter-container {
+        text-align: center;
+        display: block;
+        flex-wrap: wrap;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    ul.tab li a
+    {
+        font-size: 18px
+    }
+    .our-application-container {
+        height: 110vh;
+    }
+    
+    .heroAnimatedText {
+        font-size: 20px;
+    }
+    .who-benefit {
+        width: 100%;
+        height: 180px;
+    }
+
+}
     </style>
   </head>
   <body>
@@ -34,7 +123,7 @@
             <div class="nav-item-container">
             <ul>
                 <li><a href="digital-solution.html">Digital Solution</a></li>
-                <li><a href="#contact">CMS</a></li>
+                <li><a href="CMS.html">CMS</a></li>
                 <li><a href="#home">Solutions</a></li>
                 <li><a href="#our_works">About Us</a></li>
                 <li><a href="#contact">Our vision</a></li>
@@ -48,8 +137,8 @@
                 ********************* -->
                 <div id="mySidepanel" class="sidepanel">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <li><a href="#home">Digital Solution</a></li>
-                    <li><a href="#contact">CMS</a></li>
+                    <li><a href="digital-solution.html">Digital Solution</a></li>
+                    <li><a href="CMS.html">CMS</a></li>
                     <li><a href="#home">Solutions</a></li>
                     <li><a href="#our_works">About Us</a></li>
                     <li><a href="#contact">Our vision</a></li>
@@ -76,16 +165,15 @@
     <!--******************
     Hero section start
     ********************* -->
-    <div class="hero hero-digital" style="height: 100vh;">
+    <!-- <div class="hero hero-digital" style="height: 100vh;">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_Pj6Jzl.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"   loop  autoplay></lottie-player> -->
                     <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_nvuziy3k.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
                 </div>
                 <div class="col-12 col-md-6 d-flex align-items-center ">
                     <div class="hero-text-container">
-                        <h1 style="color: black;">Kazam EV Mobile App</h1>
+                        <h1 style="color: black;">EVERS EV Mobile App</h1>
                         <h2> 
                             <div class="heroAnimatedText">FOR
                                 <span id="text" class="text-success" style="color: #24a213;"></span>
@@ -122,7 +210,7 @@
                 
             </div>
         </div>
-    </div>
+    </div> -->
     <!--******************
     Hero section end
     ********************* -->
@@ -134,7 +222,7 @@
     <!--******************
     Our application section start
     ********************* -->
-    <div class="our-application-container">
+    <div class="hero">
         <div class="container">
             <div class="row">
                 <div class="col-12 order-last order-md-first col-md-6 d-flex align-items-center">
@@ -334,6 +422,178 @@
 
 
 
+    <!--******************
+    Slider section start
+    ********************* -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="swiper w-100">
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                                    <div>
+                                        <p style="font-weight: bold; padding: 0% 20%;">It is a perfect solution to charge any type of electric vehicle in residential societies, offices, malls, restaurants, shops, and petrol pumps.</p>
+                                        <h1>Charge <div class="text-success">Everything <br> Electric</div> </h1>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <img src="assets/images/Ather-Energy-S340-Bike-Photo-3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="swiper-slide">
+                            <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                                    <div>
+                                        <p style="font-weight: bold; padding: 0% 20%;">It is a perfect solution to charge any type of electric vehicle in residential societies, offices, malls, restaurants, shops, and petrol pumps.</p>
+                                        <h1>Charge <div class="text-success">Everything <br> Electric</div> </h1>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <img src="assets/images/Electric-Car-Charging-Stations-1024x684.jpg" alt="">
+                                </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--******************
+    Slider section end
+    ********************* -->
+
+
+
+
+
+
+    <!--******************
+    Reviews section start
+    ********************* -->
+    <div class="who-benefit-container margin-top-bottom">
+        <div class="container  margin-top-bottom">
+            <div class="row">
+                <div class="col-12 col-md-4  mt-2 d-flex align-items-center justify-content-center">
+                    <div class="who-benefit d-flex align-items-center justify-content-center" style="border: none; height: auto; background-color: #fdf7f0; padding: 20px; text-align: left;">
+                        <div>
+                            <p>Rating 4.4 <img src="assets/images/star.png" style="width: 10px; height: auto; padding-bottom: 5px;" alt=""></p>
+                            <p>A very easy to use app that can be utilized by both the user and provider effortlessly. Simple and yet impressive user interface, something that very few apps are able to achieve.</p>
+                            <p style="text-align: right;"><small>Ankur Sharma</small><br><small>Google play store</small></p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-2 d-flex align-items-center justify-content-center">
+                    <div class="who-benefit d-flex align-items-center justify-content-center" style="border: none; height: auto; background-color: #fdf7f0; padding: 20px; text-align: left;">
+                        <div>
+                            <p>Rating 5 <img src="assets/images/star.png" style="width: 10px; height: auto; padding-bottom: 5px;" alt=""></p>
+                            <p>I have charged my bike at Purva Venezia using Kazam EV. The interface is simple and also the support team resolved my query very quickly.</p>
+                            <p style="text-align: right;"><small>MP Relan</small><br><small>App store</small></p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-2 d-flex align-items-center justify-content-center">
+                    <div class="who-benefit d-flex align-items-center justify-content-center" style="border: none;">
+                        <div>
+                            <img src="assets/images/tryrttyrt.webp" class="mb-4" alt="" style="width: 70%;">
+                            <div class="d-flex">
+                                <a class="btn app-download d-flex" href="#" title="Google Play">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/playstore.png" alt="">
+                                    </div>
+                                
+                                    <div class="">
+                                        <small>Get it on</small>
+                                        <h5>Google Play</h5>
+                                    </div>
+                                </a>
+                                <a class="btn app-download d-flex" href="#" title="Google Play">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/apple.png" alt="">
+                                    </div>
+                                
+                                    <div class="">
+                                        <small>Download on the</small>
+                                        <h5>App Store</h5>
+                                    </div>
+                                </a>  
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--******************
+    Reviews section end
+    ********************* -->
+
+
+
+
+    
+    <!--******************
+    Plan section start
+    ********************* -->
+    <div class="who-benefit-container margin-top-bottom">
+        <div class="container  margin-top-bottom">
+            <div class="row">
+                <div class="col-12 col-md-4  mt-2 d-flex align-items-center justify-content-center">
+                    <div class="who-benefit d-flex align-items-center justify-content-center" style="border: none; height: auto;">
+                        <div>
+                            <img src="assets/images/plan1.webp" class="mb-4" alt="" >
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-2 d-flex align-items-center justify-content-center">
+                    <div class="who-benefit d-flex align-items-center justify-content-center" style="border: none; height: auto;">
+                        <div>
+                            <img src="assets/images/plan2.webp" class="mb-4" alt="" >
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-2 d-flex align-items-center justify-content-center">
+                    <div class="who-benefit d-flex align-items-center justify-content-center" style="border: none; height: auto;">
+                        <div>
+                            <img src="assets/images/plan3.webp" class="mb-4" alt="" >
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <h2 class="text-center mt-3 mt-md-5">Plan trips in EV with EVERS App</h2>
+        </div>
+    </div>
+    <!--******************
+    Plan section end
+    ********************* -->
 
 
 
@@ -342,60 +602,85 @@
 
 
 
-    <script>
 
-// Hero Animated Text
-// function([string1, string2],target id,[color1,color2])    
-consoleText(['Charging.', 'Discovery.', 'Hosting charge points.', 'EV community.'], 'text',['white','white','white','white']);
+    <script  type="module">
+        import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
 
-function consoleText(words, id, colors) {
-  if (colors === undefined) colors = ['#fff'];
-  var visible = true;
-  var con = document.getElementById('console');
-  var letterCount = 1;
-  var x = 1;
-  var waiting = false;
-  var target = document.getElementById(id)
-  target.setAttribute('style', 'color:' + colors[0])
-  window.setInterval(function() {
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
 
-    if (letterCount === 0 && waiting === false) {
-      waiting = true;
-      target.innerHTML = words[0].substring(0, letterCount)
-      window.setTimeout(function() {
-        var usedColor = colors.shift();
-        colors.push(usedColor);
-        var usedWord = words.shift();
-        words.push(usedWord);
-        x = 1;
+
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+       
+        });
+
+        // Hero Animated Text
+        // function([string1, string2],target id,[color1,color2])    
+        consoleText(['Charging.', 'Discovery.', 'Hosting charge points.', 'EV community.'], 'text',['white','white','white','white']);
+
+        function consoleText(words, id, colors) {
+        if (colors === undefined) colors = ['#fff'];
+        var visible = true;
+        var con = document.getElementById('console');
+        var letterCount = 1;
+        var x = 1;
+        var waiting = false;
+        var target = document.getElementById(id)
         target.setAttribute('style', 'color:' + colors[0])
-        letterCount += x;
-        waiting = false;
-      }, 1000)
-    } else if (letterCount === words[0].length + 1 && waiting === false) {
-      waiting = true;
-      window.setTimeout(function() {
-        x = -1;
-        letterCount += x;
-        waiting = false;
-      }, 1000)
-    } else if (waiting === false) {
-      target.innerHTML = words[0].substring(0, letterCount)
-      letterCount += x;
-    }
-  }, 120)
-  window.setInterval(function() {
-    if (visible === true) {
-      con.className = 'console-underscore hidden'
-      visible = false;
+        window.setInterval(function() {
 
-    } else {
-      con.className = 'console-underscore'
+            if (letterCount === 0 && waiting === false) {
+            waiting = true;
+            target.innerHTML = words[0].substring(0, letterCount)
+            window.setTimeout(function() {
+                var usedColor = colors.shift();
+                colors.push(usedColor);
+                var usedWord = words.shift();
+                words.push(usedWord);
+                x = 1;
+                target.setAttribute('style', 'color:' + colors[0])
+                letterCount += x;
+                waiting = false;
+            }, 1000)
+            } else if (letterCount === words[0].length + 1 && waiting === false) {
+            waiting = true;
+            window.setTimeout(function() {
+                x = -1;
+                letterCount += x;
+                waiting = false;
+            }, 1000)
+            } else if (waiting === false) {
+            target.innerHTML = words[0].substring(0, letterCount)
+            letterCount += x;
+            }
+        }, 120)
+        window.setInterval(function() {
+            if (visible === true) {
+            con.className = 'console-underscore hidden'
+            visible = false;
 
-      visible = true;
-    }
-  }, 400)
-}
+            } else {
+            con.className = 'console-underscore'
+
+            visible = true;
+            }
+        }, 400)
+        }
+
+
+
 
 
 
@@ -406,7 +691,7 @@ function consoleText(words, id, colors) {
 
     <!-- lottie animation link -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

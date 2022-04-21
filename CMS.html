@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS link-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Icon link -->
+    <script src="https://kit.fontawesome.com/7ae177276b.js" crossorigin="anonymous"></script>
+    <title>Evers-ev | Home</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/fav icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <style>
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /* background-color: black; */
+    /* background: linear-gradient(-45deg, #b95d41, #bd3267, #23a6d5, #1cb18e); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+        @media only screen and (max-width: 600px) {
+    h2 {
+        margin-bottom: 20px;
+    }
+    .margin-top-bottom {
+        padding: 40px 0px;
+    }
+    .openbtn {
+        top: 0px;
+        right: 10px;
+        font-size: 28px;
+    }
+    .header-area {
+        padding: 10px 20px;
+    }
+    .logo-container {
+        width: 70%;
+    }
+    .nav-item-container {
+        width: 30%;
+    }
+
+
+    .hero  {
+        height: 130vh;
+    }
+    .hero-digital {
+        height: 100vh;
+    }
+    .hero-text-container {
+        margin-top: 50px;
+    }
+    .hero-button {
+        text-align: center;
+    }
+    .how-works-container lottie-player {
+        height: 200px;
+    }
+    .work-system {
+        padding: 0px 40px;
+        text-align: center;
+    }
+    /* Hero Counter css start  */
+    .counter {
+        padding-right: 0px;
+        margin-right: 0px;
+        position: relative;
+    }
+    .counter h3 {
+        font-weight: bold;
+    }
+    .counter-container {
+        text-align: center;
+        display: block;
+        flex-wrap: wrap;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    ul.tab li a
+    {
+        font-size: 18px
+    }
+    .our-application-container {
+        height: 110vh;
+    }
+    
+    .heroAnimatedText {
+        font-size: 20px;
+    }
+    .who-benefit {
+        width: 100%;
+        height: 180px;
+    }
+
+}
+    </style>
+  </head>
+  <body>
+
+
+    
+    <!--******************
+    Navbar section start
+    ******************-->
+    <header class="fixed-top">
+        <nav class="header-area">
+            <a href="index.html" class="logo-container d-flex align-items-center">
+                <img src="assets/images/EVERS_-_CHARGING_YOUR_WAY_LOGO-removebg-preview.png" alt="">
+            </a>
+            <div class="nav-item-container">
+            <ul>
+                <li><a href="digital-solution.html">Digital Solution</a></li>
+                <li><a href="CMS.html">CMS</a></li>
+                <li><a href="#home">Solutions</a></li>
+                <li><a href="#our_works">About Us</a></li>
+                <li><a href="#contact">Our vision</a></li>
+                <li><a href="#contact">Credential</a></li>
+
+            </ul>
+            </div>
+
+                <!--******************
+                (Sidebar for tablet and mobile) section Start
+                ********************* -->
+                <div id="mySidepanel" class="sidepanel">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <li><a href="digital-solution.html">Digital Solution</a></li>
+                    <li><a href="CMS.html">CMS</a></li>
+                    <li><a href="#home">Solutions</a></li>
+                    <li><a href="#our_works">About Us</a></li>
+                    <li><a href="#contact">Our vision</a></li>
+                    <li><a href="#contact">Credential</a></li>
+                </div>
+                
+                <button class="openbtn" onclick="openNav()">☰</button>
+                <!--******************
+                (Sidebar for tablet and mobile) section end
+                ********************* -->
+        </nav>
+        </header>
+    <!--******************
+    Navbar section end
+    ********************* -->
+  
+
+
+
+
+    <!--******************
+    Hero section start
+    ********************* -->
+    <div class="hero" style="height: 100vh;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 order-last order-md-first col-md-6 d-flex align-items-center" >
+                    <div class="hero-text-container">
+                        <h1>EVERS EV Charging Station
+                            Management Solution</h1>
+                        <p class="mb-2 mb-md-4">Set up your own charging network without any software development hassle.
+                        </p>
+                        <div class="hero-button">
+                            <a href="#" class="btn pr-5 button-bg" onclick="openContact()">Know more</a>
+                            <a href="#" class="btn button-bg"> <img src="assets/images/player.png" alt="" style="width: 20px;"> Watch Video</a>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-first order-md-last">
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_Pj6Jzl.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"   loop  autoplay></lottie-player> -->
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_c21tPU/electric-car-lottie-illustradraw-download.json"  background="transparent"  speed="1" style="width: 100%; height: 100%;"  loop  autoplay></lottie-player> -->
+                    <img src="assets/images/cms.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--******************
+    Hero section end
+    ********************* -->
+
+
+
+
+    
+    <!--******************
+    CMS Feature section start
+    ********************* -->
+    <div class="CMS-container">
+        <div class="container">
+            <h2 class="text-center">CMS Feature</h2>
+            <div class="row">
+                <div class="col col-md-4 mb-md-4 mb-2 d-flex align-items-center justify-content-center">
+                    <div class="CMS">
+                        <h1>1</h1>
+                        <p>Charging Mangement System with all OCPP features and profiles</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 mb-md-4 mb-2 d-flex align-items-center justify-content-center">
+                    <div class="CMS">
+                        <h1>2</h1>
+                        <p>Supporting mobile app with white labeling option available</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 mb-md-4 mb-2 d-flex align-items-center justify-content-center">
+                    <div class="CMS">
+                        <h1>3</h1>
+                        <p>Integrated payment solution with flexible tariff management</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <!--******************
+    CMS Feature section end
+    ********************* -->
+
+
+
+    <!--******************
+    Tech section start
+    ********************* -->
+    <div class="CMS-container margin-top-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Build your charging station business
+                        and let us handle the tech</h2>
+                </div>
+            </div>
+         
+        </div>
+       
+        <div class="container-fluid">
+            <img src="assets/images/tech.webp" alt="" height="100vh">
+        </div>
+    </div>
+    <!--******************
+    Tech section end
+    ********************* -->
+
+
+    <!--******************
+    Who benefit section start
+    ********************* -->
+    <div class="who-benefit-container margin-top-bottom">
+        <div class="container">
+            <h2 class="text-center">Who can benefit</h2>
+            <div class="row">
+                
+                <div class="col-12 col-md-4 mt-2 d-flex align-items-center justify-content-center">
+                    <div class="who-benefit" style="height: 350px; padding: 0% 15%;">
+                        <div>
+                            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_svy4ivvy.json"  background="transparent" class="who-benefit-animation" speed="1" loop  autoplay></lottie-player>
+                        
+                            <h5>Charge Point Operators</h5>
+                            <p>Our end to end electric vehicle charge station management platform can meet your strategic needs fr your charging business</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-2 d-flex align-items-center justify-content-center">
+                    <div class="who-benefit" style="height: 350px; padding: 0% 15%;">
+                        <div>
+                            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_0pvqia4q.json"  background="transparent" class="who-benefit-animation" speed="1" loop  autoplay></lottie-player>
+                            <h5>EV Fleet Operators</h5>
+                            <p>Scale and streamline your EV charging operations to get to market faster and at an affordable cost.</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-2 d-flex align-items-center justify-content-center">
+                    <div class="who-benefit" style="height: 350px; padding: 0% 15%;">
+                        <div>
+                            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_cyn8dgwy.json"  background="transparent" class="who-benefit-animation" speed="1" loop  autoplay></lottie-player>
+                            <h5>OEMs</h5>
+                            <p>Use intelligent controllers and software from Kazam CMS to host your charge points on cloud</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--******************
+    Who benefit section end
+    ********************* -->
+
+
+
+
+    <!--******************
+    CMS section start
+    ********************* -->
+    <div class="CMS-container margin-top-bottom">
+        <div class="container">
+            <h2 class="text-center">CMS</h2>
+            <h1 class="text-center">CHARGING MANAGEMENT SYSTEM</h1>
+            <p class="text-center">Kazam's CMS platform allows us to control, onboard, manage, analyse, load balance all charging stations in a single dashboard. Our EV CMS provides a wide range of cloud-based services, including:</p>
+            <div class="row text-white">
+                <div class="col-12 col-md-6 col-lg-3 mt-2">
+                    <img src="assets/images/cms1.webp" alt="">
+                    <h5 class="text-black mt-3">Flexible Tariff Management</h5>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-2">
+                    <img src="assets/images/cms2.webp" alt="">
+                    <h5 class="text-black mt-3">Remote Maintainence & TroubleShooting
+                    </h5>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-2">
+                    <img src="assets/images/cms3.webp" alt="">
+                    <h5 class="text-black mt-3">Load Management</h5>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-2">
+                    <img src="assets/images/cms4.webp" alt="">
+                    <h5 class="text-black mt-3">Driver and Vehicle Management</h5>
+                </div>
+                
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-success">Load More</a>
+            </div>
+            
+        </div>
+    </div>
+    <!--******************
+    CMS section end
+    ********************* -->
+
+
+
+
+
+
+    
+    <!--******************
+    CMS Feature section start
+    ********************* -->
+    <div class="CMS-container margin-top-bottom" style="position: relative;">
+        <div class="container">
+            <h2 class="text-center">CMS Feature</h2>
+            <div class="row">
+                <div class="col col-md-4 mb-md-4 mb-2 d-flex align-items-center justify-content-center">
+                    <div class="CMS">
+                        <img src="assets/images/mqtt.webp" alt="">
+                        <h5>MQTT</h5>
+                        <p>We understand your charging needs</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 mb-md-4 mb-2 d-flex align-items-center justify-content-center">
+                    <div class="CMS">
+                        <img src="assets/images/ocpp.webp" alt="">
+                        <h5>OCPP</h5>
+                        <p>We understand your charging needs</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 mb-md-4 mb-2 d-flex align-items-center justify-content-center">
+                    <div class="CMS">
+                        <img src="assets/images/api.webp" alt="">
+                        <h5>OCPI</h5>
+                        <p>We understand your charging needs</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 mb-md-4 mb-2 d-flex align-items-center justify-content-center">
+                    <div class="CMS">
+                        <img src="assets/images/cloud.webp" alt="">
+                        <h5>End to End solution</h5>
+                        <p>We understand your charging needs</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 mb-md-4 mb-2 d-flex align-items-center justify-content-center">
+                    <div class="CMS">
+                        <img src="assets/images/com.webp" alt="">
+                        <h5>Mobile app integration</h5>
+                        <p>We understand your charging needs</p>
+                    </div>
+                </div>
+                <div class="col col-md-4 mb-md-4 mb-2 d-flex align-items-center justify-content-center">
+                    <div class="CMS">
+                        <img src="assets/images/card.webp" alt="">
+                        <h5>Integrated Payment Options</h5>
+                        <p>We understand your charging needs</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <!-- <svg style="position: absolute; bottom: -200px; z-index: -1;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1" d="M0,64L720,288L1440,64L1440,0L720,0L0,0Z"></path>
+        </svg> -->
+    </div>
+    <!--******************
+    CMS Feature section end
+    ********************* -->
+
+
+
+
+    
+    <!--******************
+    Solution section start
+    ********************* -->
+    <div class="hero margin-top-bottom" style="height: auto; ">
+        <div class="container">
+            <h2 class="text-center">OUR SOLUTION</h2>
+            <div class="row">
+                <div class="col-12 order-last order-md-first col-md-6 d-flex align-items-center" >
+                    <div class="hero-text-container">
+                        <h2>Our Station, Our Software, Your Brand</h2>
+                        <p class="mb-2 mb-md-4">Our charging stations will enable EV to be 24*7 on the go! Additionally, it will assist in establishing your effective charging station network. The Kazam API platform supports you to effortlessly create a custom mobile app or integrate it into an existing mobile app. We know the importance of providing the best customer experience.
+                        </p>
+                        <div class="hero-button">
+                            <a href="#" class="btn pr-5 button-bg" onclick="openContact()">Know more</a>
+                            <a href="#" class="btn button-bg">See API documentation</a>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-first order-md-last">
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_Pj6Jzl.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"   loop  autoplay></lottie-player> -->
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_c21tPU/electric-car-lottie-illustradraw-download.json"  background="transparent"  speed="1" style="width: 100%; height: 100%;"  loop  autoplay></lottie-player> -->
+                    <img src="assets/images/station 1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero margin-top-bottom" style="height: auto;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_Pj6Jzl.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"   loop  autoplay></lottie-player> -->
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_c21tPU/electric-car-lottie-illustradraw-download.json"  background="transparent"  speed="1" style="width: 100%; height: 100%;"  loop  autoplay></lottie-player> -->
+                    <img src="assets/images/station 2.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-6 d-flex align-items-center" >
+                    <div class="hero-text-container">
+                        <h2>Your Station, Our Software, Your Brand</h2>
+                        <p class="mb-2 mb-md-4">Level up with our deep industry expertise and scalable software-as-a-service solution to deliver a seamless EV charging experience. Bonus: With a branded driver mobile app and management portal! Fasten your network’s growth along with out of the box innovations such as interoperability with OCPP compliance – providing you ultimate charging station ﬂexibility with dozens of advanced stations on our platform.
+                        </p>
+                        <div class="hero-button">
+                            <a href="#" class="btn pr-5 button-bg" onclick="openContact()">Know more</a>
+                            <a href="#" class="btn button-bg">See API documentation</a>
+                        </div>
+                       
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hero margin-top-bottom" style="height: auto;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 order-last order-md-first col-md-6 d-flex align-items-center" >
+                    <div class="hero-text-container">
+                        <h2>Your Fleet, Our Solution</h2>
+                        <p class="mb-2 mb-md-4">Building on an enterprise-scale platform is a must for fast-moving Charge Point Operators and eMobility Service Providers. You will be able to scale and streamline your EV charging operations to get to market faster and at an affordable cost. From e-Mobility providers to Cafés and hotel chains, we empower you to create a custom experience for your pro EV drivers.
+                        </p>
+                        <div class="hero-button">
+                            <a href="#" class="btn pr-5 button-bg" onclick="openContact()">Know more</a>
+                            <a href="#" class="btn button-bg">See API documentation</a>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-first order-md-last">
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_Pj6Jzl.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"   loop  autoplay></lottie-player> -->
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_c21tPU/electric-car-lottie-illustradraw-download.json"  background="transparent"  speed="1" style="width: 100%; height: 100%;"  loop  autoplay></lottie-player> -->
+                    <img src="assets/images/station 3.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--******************
+    Solution section end
+    ********************* -->
+
+
+
+    
+    <!--******************
+    OCPP section start
+    ********************* -->
+    <div class="hero margin-top-bottom" style="height: auto;">
+        <div class="container">
+            <h2 class="text-center">OCPP Controller</h2>
+            <div class="row">
+                
+                <div class="col-12 order-last order-md-first col-md-6 d-flex align-items-center" >
+                    <div class="hero-text-container">
+                        <h5>Our OCPP Controller Functions as a channel that shares the Charging Management System's charger information and works as the digital brain that effectively and accurately provides connectivity and intelligence to the charging station.</h5>
+                        
+                      
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-first order-md-last d-flex align-items-center justify-content-center">
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_Pj6Jzl.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"   loop  autoplay></lottie-player> -->
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_c21tPU/electric-car-lottie-illustradraw-download.json"  background="transparent"  speed="1" style="width: 100%; height: 100%;"  loop  autoplay></lottie-player> -->
+                    <img class="w-50" src="assets/images/ocpp-controller.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--******************
+    OCPP section end
+    ********************* -->
+
+
+
+    
+    <!--******************
+    Contact section start
+    ********************* -->
+    <div class="contact-container margin-top-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center contact-text">
+                    <h2 class="mb-3">Not sure about what you need?</h2>
+                    <p>We are here to help -
+                        from discovering the right roadmap of work to 24/7 support
+                    </p>
+                    <button class="btn button-bg mt-2 mt-md-4" onclick="openContact()">Contact Us</button>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--******************
+    Contact section end
+    ********************* -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS link -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- lottie animation link -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    </body>
+</html>
