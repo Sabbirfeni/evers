@@ -1,0 +1,111 @@
+
+form {
+    width: 70%;
+}
+
+.nav-item a, .dropbtn {
+	color: #24a213;
+}
+
+.nav-item::after {
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 4px;
+	background-color: white;
+	bottom: 0px;
+	left: 0px;
+	transition: 0.4s;
+}
+.nav-item:hover::after {
+	width: 100%;
+}
+.dropbtn {
+	background-color: #04aa6d00;
+	/* color: black; */
+	/* padding: 16px; */
+	font-size: 16px;
+	border: none;
+  }
+  
+.dropdown {
+	position: relative;
+	display: inline-block;
+	padding: 7px;
+}
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	top: 50px;
+}
+  
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown-container:hover .dropdown-content {display: block;}
+
+.icons{
+    border: 2px solid rgb(197, 197, 197);
+    border-radius: 50%;
+    background-color: whitesmoke;
+   
+}
+
+
+
+.delivery {
+    background-color:rgb(243 244 246);
+    height: 420px;
+}
+
+
+
+.touch{
+    background-image: url("image/cargerPic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    opacity: 0.1s;
+}
+
+#store-btn{
+    border: 2px solid rgb(166, 6, 20);
+
+}
+
+
+
+
+
+.footer-main{
+   display: flex;
+   padding-top: 20px;
+   height: 100%;
+   
+   
+}
+
+.fotter-text{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100%;
+    }
+}

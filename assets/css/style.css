@@ -100,7 +100,7 @@ header {
     font-size: clamp(0.8rem, 2vw, 0.9rem);
     position: relative;
 }
-.nav-item-container ul li a::after {
+.header-link::after {
    content: "";
    position: absolute;
    width: 0%;
@@ -110,9 +110,63 @@ header {
    left: 0%;
    transition: 0.4s;
 }
-.nav-item-container ul li a:hover::after {
+.header-link:hover::after {
    width: 100%;
  }
+ 
+.nav-item a, .dropbtn {
+	color: #24a213;
+}
+
+.nav-item::after {
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 4px;
+	background-color: white;
+	bottom: 0px;
+	left: 0px;
+	transition: 0.4s;
+}
+.nav-item:hover::after {
+	width: 100%;
+}
+.dropbtn {
+	background-color: #04aa6d00;
+	/* color: black; */
+	/* padding: 16px; */
+	font-size: 16px;
+	border: none;
+  }
+  
+.dropdown {
+	position: relative;
+	display: inline-block;
+	padding: 7px;
+}
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	top: 40px;
+}
+  
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown-container:hover .dropdown-content {display: block;}
+
 .logo {
     width: 70px;
     height: 70px;
@@ -230,6 +284,61 @@ Hero css start
         background-position: 0% 50%;
     }
 }
+
+
+.hero-form {
+    width: 70%;
+}
+
+.icons{
+    border: 2px solid rgb(197, 197, 197);
+    border-radius: 50%;
+    background-color: whitesmoke;
+   
+}
+
+
+
+.delivery {
+    background-color:rgb(243 244 246);
+    height: 420px;
+}
+
+
+
+.touch{
+    background-image: url("image/cargerPic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    opacity: 0.1s;
+}
+
+#store-btn{
+    border: 2px solid rgb(166, 6, 20);
+
+}
+
+
+
+
+
+.footer-main{
+   display: flex;
+   padding-top: 20px;
+   height: 100%;
+   
+   
+}
+
+.fotter-text{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    
+}
+
 
 
 /* Hero Counter css start  */
@@ -772,6 +881,9 @@ Media query start
     .who-benefit {
         width: 100%;
         height: 180px;
+    }
+      .hero-form {
+        width: 100%;
     }
 
 }
