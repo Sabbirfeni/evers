@@ -67,6 +67,7 @@ header {
     /* min-height: 80px; */
     display: flex;
     box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.05);
+    position: relative;
 }
 .logo-container {
     width: 30%;
@@ -817,8 +818,8 @@ Media query start
         padding: 40px 0px;
     }
     .openbtn {
-        top: 0px;
-        right: 10px;
+        top: 3px;
+        right: 15px;
         font-size: 28px;
     }
     .header-area {
@@ -830,8 +831,9 @@ Media query start
     .nav-item-container {
         width: 30%;
     }
-
-
+    .logo-container img {
+        width: 100px;
+    }
     .hero  {
         height: 130vh;
     }
@@ -885,7 +887,9 @@ Media query start
       .hero-form {
         width: 100%;
     }
-
+    .dropdown-content a {
+        color: #24a213;
+    }
 }
 /************************************
 Media query end

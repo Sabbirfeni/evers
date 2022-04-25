@@ -59,50 +59,6 @@
     .hero-digital {
         height: 100vh;
     }
-    .hero-text-container {
-        margin-top: 50px;
-    }
-    .hero-button {
-        text-align: center;
-    }
-    .how-works-container lottie-player {
-        height: 200px;
-    }
-    .work-system {
-        padding: 0px 40px;
-        text-align: center;
-    }
-    /* Hero Counter css start  */
-    .counter {
-        padding-right: 0px;
-        margin-right: 0px;
-        position: relative;
-    }
-    .counter h3 {
-        font-weight: bold;
-    }
-    .counter-container {
-        text-align: center;
-        display: block;
-        flex-wrap: wrap;
-        /* align-items: center;
-        justify-content: center; */
-    }
-    ul.tab li a
-    {
-        font-size: 18px
-    }
-    .our-application-container {
-        height: 110vh;
-    }
-    
-    .heroAnimatedText {
-        font-size: 20px;
-    }
-    .who-benefit {
-        width: 100%;
-        height: 180px;
-    }
 
 }
     </style>
@@ -112,22 +68,33 @@
 
 
 
-        <!--******************
+    <!--******************
     Navbar section start
     ******************-->
     <header class="fixed-top">
         <nav class="header-area">
-            <a href="index.html" class="logo-container d-flex align-items-center">
+            <a href="index.html" class="logo-container d-flex align-items-center nav-link">
                 <img src="assets/images/EVERS_-_CHARGING_YOUR_WAY_LOGO-removebg-preview.png" alt="">
             </a>
             <div class="nav-item-container">
             <ul>
-                <li><a href="digital-solution.html">Digital Solution</a></li>
-                <li><a href="CMS.html">CMS</a></li>
-                <li><a href="our-vision.html">Our vision</a></li>
-                <li><a href="#home">Services</a></li>
-                <li><a href="#our_works">About Us</a></li>
-                <li><a href="#contact">Testimonials</a></li>
+                <li><a href="index.html" class="header-link">Home</a></li>
+                <li><a href="digital-solution.html" class="header-link">Digital Solution</a></li>
+                <li class="nav-item dropdown-container">
+                    <div class="dropdown">
+                      <a class="dropbtn" class="header-link">Digital Solution</a>
+                      <div class="dropdown-content text-left">
+                        <a href="evers-app-service.html">EVSE APP</a>
+                        <a href="evers-app-service.html">CPO APP</a>
+                        <a href="CMS.html">CMS</a>
+                      </div>
+                    </div>
+                </li>
+                <li><a href="index.html" class="header-link">Turnkey</a></li>
+                <li><a href="our-vision.html" class="header-link">Our vision</a></li>
+                <!-- <li><a href="index.html" class="header-link">Services</a></li> -->
+                <li><a href="#our_works" class="header-link">About Us</a></li>
+                <li><a href="#contact" class="header-link">Testimonials</a></li>
 
             </ul>
             </div>
@@ -137,12 +104,23 @@
                 ********************* -->
                 <div id="mySidepanel" class="sidepanel">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <li><a href="digital-solution.html">Digital Solution</a></li>
-                    <li><a href="CMS.html">CMS</a></li>
-                    <li><a href="our-vision.html">Our vision</a></li>
-                    <li><a href="#home">Services</a></li>
-                    <li><a href="#our_works">About Us</a></li>
-                    <li><a href="#contact">Testimonials</a></li>
+                    <li><a href="index.html" class="header-link">Home</a></li>
+                    <li><a href="digital-solution.html" class="header-link">Digital Solution</a></li>
+                    <li class="nav-item dropdown-container">
+                        <div class="dropdown">
+                        <a class="dropbtn" class="header-link">Digital Solution</a>
+                        <div class="dropdown-content text-left">
+                            <a href="evers-app-service.html">EVSE APP</a>
+                            <a href="evers-app-service.html">CPO APP</a>
+                            <a href="CMS.html">CMS</a>
+                        </div>
+                        </div>
+                    </li>
+                    <li><a href="index.html" class="header-link">Turnkey</a></li>
+                    <li><a href="our-vision.html" class="header-link">Our vision</a></li>
+                    <!-- <li><a href="index.html" class="header-link">Services</a></li> -->
+                    <li><a href="#our_works" class="header-link">About Us</a></li>
+                    <li><a href="#contact" class="header-link">Testimonials</a></li>
                 </div>
                 
                 <button class="openbtn" onclick="openNav()">☰</button>
@@ -150,7 +128,7 @@
                 (Sidebar for tablet and mobile) section end
                 ********************* -->
         </nav>
-        </header>
+    </header>
     <!--******************
     Navbar section end
     ********************* -->
@@ -159,13 +137,11 @@
 
 
 
-
-
     
     <!--******************
     Hero section start
     ********************* -->
-    <!-- <div class="hero hero-digital" style="height: 100vh;">
+    <div class="hero hero-digital" style="height: 100vh;">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
@@ -210,7 +186,7 @@
                 
             </div>
         </div>
-    </div> -->
+    </div>
     <!--******************
     Hero section end
     ********************* -->
@@ -219,67 +195,6 @@
 
 
 
-    <!--******************
-    Navbar section start
-    ******************-->
-    <header class="fixed-top">
-        <nav class="header-area">
-            <a href="index.html" class="logo-container d-flex align-items-center nav-link">
-                <img src="assets/images/EVERS_-_CHARGING_YOUR_WAY_LOGO-removebg-preview.png" alt="">
-            </a>
-            <div class="nav-item-container">
-            <ul>
-                <li><a href="digital-solution.html" class="header-link">Digital Solution</a></li>
-                <li><a href="CMS.html" class="header-link">CMS</a></li>
-                <li><a href="our-vision.html" class="header-link">Our vision</a></li>
-                <li class="nav-item dropdown-container">
-                    <div class="dropdown">
-                      <a class="dropbtn" class="header-link">Services</a>
-                      <div class="dropdown-content text-left">
-                        <a href="evers-app-service.html">EVSE APP</a>
-                        <a href="">CPO APP</a>
-                        <a href="">CMS</a>
-                      </div>
-                    </div>
-                </li>
-                <li><a href="#our_works" class="header-link">About Us</a></li>
-                <li><a href="#contact" class="header-link">Testimonials</a></li>
-
-            </ul>
-            </div>
-
-                <!--******************
-                (Sidebar for tablet and mobile) section Start
-                ********************* -->
-                <div id="mySidepanel" class="sidepanel">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <li><a href="digital-solution.html">Digital Solution</a></li>
-                    <li><a href="CMS.html">CMS</a></li>
-                    <li><a href="our-vision.html">Our vision</a></li>
-                    <li class="nav-item dropdown-container">
-                        <div class="dropdown">
-                          <a class="dropbtn" class="header-link">Services</a>
-                          <div class="dropdown-content text-left">
-                            <a href="evers-app-service.html">EVSE APP</a>
-                            <a href="evers-app-service.html">CPO APP</a>
-                            <a href="evers-app-service.html">CMS</a>
-                          </div>
-                        </div>
-                    </li>
-                    <li><a href="#our_works">About Us</a></li>
-                    <li><a href="#contact">Testimonials</a></li>
-                </div>
-                
-                <button class="openbtn" onclick="openNav()">☰</button>
-                <!--******************
-                (Sidebar for tablet and mobile) section end
-                ********************* -->
-        </nav>
-        </header>
-    <!--******************
-    Navbar section end
-    ********************* -->
-  
 
 
 
@@ -291,16 +206,6 @@
             <h2 class="text-center mb-2">Kazam App Features</h2>
             <h6 class="text-center mb-3 mb-md-5">Making Electric Mobility Easier Anytime, Anywhere</h6>
             <div class="row">
-                <!-- <div class="col-6 col-md-3  mt-2 d-flex align-items-center justify-content-center">
-                    <div class="who-benefit d-flex align-items-center justify-content-center">
-                        <div>
-                            <img src="assets/images/networking.png" class="w-25 mb-4" alt="">
-                            <h4 class="text-success">EVERS Socials</h4>
-                            <p>Message, Like & Comment</p>
-                        </div>
-                        
-                    </div>
-                </div> -->
                 <div class="col-12 col-md-4 mt-2 d-flex align-items-center justify-content-center">
                     <div class="who-benefit d-flex align-items-center justify-content-center">
                         <div>
@@ -428,12 +333,12 @@
     Slider section start
     ********************* -->
 
-    <div class="container-fluid">
+   <div class="container-fluid margin-top-bottom">
         <div class="row">
             <div class="col-12">
                 <div class="swiper w-100">
                     <div class="swiper-wrapper">
-                    <!-- Slides -->
+            
                     <div class="swiper-slide">
 
                         <div class="container-fluid">
@@ -467,12 +372,10 @@
                     </div>
                     
                     </div>
-                    <!-- If we need pagination -->
+        
                     <div class="swiper-pagination"></div>
                 
-                    <!-- If we need navigation buttons -->
-                    <!-- <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div> -->
+                  
                 
                 </div>
 
@@ -492,7 +395,7 @@
     <!--******************
     Reviews section start
     ********************* -->
-    <div class="who-benefit-container margin-top-bottom">
+    <!-- <div class="who-benefit-container margin-top-bottom">
         <div class="container  margin-top-bottom">
             <div class="row">
                 <div class="col-12 col-md-4  mt-2 d-flex align-items-center justify-content-center">
@@ -548,20 +451,18 @@
                 
             </div>
         </div>
-    </div>
+    </div> -->
     <!--******************
     Reviews section end
     ********************* -->
 
 
 
-
-    
     <!--******************
     Plan section start
     ********************* -->
-    <div class="who-benefit-container margin-top-bottom">
-        <div class="container  margin-top-bottom">
+    <!-- <div class="who-benefit-container margin-top-bottom">
+        <div class="container margin-top-bottom">
             <div class="row">
                 <div class="col-12 col-md-4  mt-2 d-flex align-items-center justify-content-center">
                     <div class="who-benefit d-flex align-items-center justify-content-center" style="border: none; height: auto;">
@@ -592,7 +493,7 @@
             </div>
             <h2 class="text-center mt-3 mt-md-5">Plan trips in EV with EVERS App</h2>
         </div>
-    </div>
+    </div> -->
     <!--******************
     Plan section end
     ********************* -->
@@ -601,7 +502,7 @@
 
 
 
-    
+
 
     <!--******************
     Footer section start
@@ -683,36 +584,6 @@
                             
                     </div>
                 </div>
-                </div>
-            </div>
-            <div class="row pt-3 mt-3 pt-md-5 pb-md-5 text-center">
-                <div class="col-md-3">
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                </div>
-                <div class="col-md-3">
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                </div>
-                <div class="col-md-3">
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                </div>
-                <div class="col-md-3">
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
-                    <h6>EV Charging Station in </h6>
                 </div>
             </div>
         </div>
