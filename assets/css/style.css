@@ -525,8 +525,19 @@ Our application css start
 .our-application-container ul li {
     margin-bottom: 6px;
 }
-
-
+.app-feature-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #24a213;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.app-feature-icon img {
+    width: 30px;
+    height: auto;
+}
 /* ********** Google play and apple app store button **********/
 .app-download {
     vertical-align: baseline;

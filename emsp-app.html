@@ -16,54 +16,54 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <style>
-        
+                
+        .hero {
+            width: 100%;
+            height: 100vh;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            /* background-color: black; */
+            /* background: linear-gradient(-45deg, #b95d41, #bd3267, #23a6d5, #1cb18e); */
+            background-size: cover;
+            background-attachment: fixed;
+        }
+                @media only screen and (max-width: 600px) {
+            h2 {
+                margin-bottom: 20px;
+            }
+            .margin-top-bottom {
+                padding: 40px 0px;
+            }
+            .openbtn {
+                top: 0px;
+                right: 10px;
+                font-size: 28px;
+            }
+            .header-area {
+                padding: 10px 20px;
+            }
+            .logo-container {
+                width: 70%;
+            }
+            .nav-item-container {
+                width: 30%;
+            }
 
-.hero {
-    width: 100%;
-    height: 100vh;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    /* background-color: black; */
-    /* background: linear-gradient(-45deg, #b95d41, #bd3267, #23a6d5, #1cb18e); */
-    background-size: cover;
-    background-attachment: fixed;
-}
-        @media only screen and (max-width: 600px) {
-    h2 {
-        margin-bottom: 20px;
-    }
-    .margin-top-bottom {
-        padding: 40px 0px;
-    }
-    .openbtn {
-        top: 0px;
-        right: 10px;
-        font-size: 28px;
-    }
-    .header-area {
-        padding: 10px 20px;
-    }
-    .logo-container {
-        width: 70%;
-    }
-    .nav-item-container {
-        width: 30%;
-    }
 
+            .hero  {
+                height: 130vh;
+            }
+            .hero-digital {
+                height: 100vh;
+            }
 
-    .hero  {
-        height: 130vh;
-    }
-    .hero-digital {
-        height: 100vh;
-    }
-
-}
+        }
     </style>
   </head>
   <body>
+
 
 
 
@@ -79,18 +79,17 @@
             <div class="nav-item-container">
             <ul>
                 <li><a href="index.html" class="header-link">Home</a></li>
-                <li><a href="digital-solution.html" class="header-link">Digital Solution</a></li>
                 <li class="nav-item dropdown-container">
                     <div class="dropdown">
                       <a class="dropbtn" class="header-link">Digital Solution</a>
                       <div class="dropdown-content text-left">
-                        <a href="evers-app-service.html">EVSE APP</a>
-                        <a href="evers-app-service.html">CPO APP</a>
+                        <a href="emsp-app.html">EMSP APP</a>
+                        <a href="emsp-app.html">CPO DASHBOARD</a>
                         <a href="CMS.html">CMS</a>
                       </div>
                     </div>
                 </li>
-                <li><a href="index.html" class="header-link">Turnkey</a></li>
+                <!-- <li><a href="index.html" class="header-link">Turnkey</a></li> -->
                 <li><a href="our-vision.html" class="header-link">Our vision</a></li>
                 <!-- <li><a href="index.html" class="header-link">Services</a></li> -->
                 <li><a href="#our_works" class="header-link">About Us</a></li>
@@ -105,18 +104,17 @@
                 <div id="mySidepanel" class="sidepanel">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                     <li><a href="index.html" class="header-link">Home</a></li>
-                    <li><a href="digital-solution.html" class="header-link">Digital Solution</a></li>
                     <li class="nav-item dropdown-container">
                         <div class="dropdown">
                         <a class="dropbtn" class="header-link">Digital Solution</a>
                         <div class="dropdown-content text-left">
-                            <a href="evers-app-service.html">EVSE APP</a>
-                            <a href="evers-app-service.html">CPO APP</a>
+                            <a href="emsp-app.html.html">EMSP APP</a>
+                            <a href="emsp-app.html.html">CPO DASHBOARD</a>
                             <a href="CMS.html">CMS</a>
                         </div>
                         </div>
                     </li>
-                    <li><a href="index.html" class="header-link">Turnkey</a></li>
+                    <!-- <li><a href="index.html" class="header-link">Turnkey</a></li> -->
                     <li><a href="our-vision.html" class="header-link">Our vision</a></li>
                     <!-- <li><a href="index.html" class="header-link">Services</a></li> -->
                     <li><a href="#our_works" class="header-link">About Us</a></li>
@@ -128,11 +126,12 @@
                 (Sidebar for tablet and mobile) section end
                 ********************* -->
         </nav>
-    </header>
+        </header>
     <!--******************
     Navbar section end
     ********************* -->
   
+
 
 
 
@@ -203,7 +202,7 @@
     ********************* -->
     <div class="who-benefit-container margin-top-bottom">
         <div class="container">
-            <h2 class="text-center mb-2">Kazam App Features</h2>
+            <h2 class="text-center mb-2">EVERS App Features</h2>
             <h6 class="text-center mb-3 mb-md-5">Making Electric Mobility Easier Anytime, Anywhere</h6>
             <div class="row">
                 <div class="col-12 col-md-4 mt-2 d-flex align-items-center justify-content-center">
@@ -333,43 +332,49 @@
     Slider section start
     ********************* -->
 
-   <div class="container-fluid margin-top-bottom">
-        <div class="row">
-            <div class="col-12">
+   <div class="container margin-top-bottom">
+        <!-- <div class="row">
+            <div class="col-12"> -->
                 <div class="swiper w-100">
                     <div class="swiper-wrapper">
-            
-                    <div class="swiper-slide">
-
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <p style="font-weight: bold; padding: 0% 20%;">It is a perfect solution to charge any type of electric vehicle in residential societies, offices, malls, restaurants, shops, and petrol pumps.</p>
-                                        <h1>Charge <div class="text-success">Everything <br> Electric</div> </h1>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <img src="assets/images/Ather-Energy-S340-Bike-Photo-3.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        
+                
                         <div class="swiper-slide">
-                            <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <p style="font-weight: bold; padding: 0% 20%;">It is a perfect solution to charge any type of electric vehicle in residential societies, offices, malls, restaurants, shops, and petrol pumps.</p>
-                                        <h1>Charge <div class="text-success">Everything <br> Electric</div> </h1>
+                           
+                           
+                                <div class="row">
+                                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <p style="font-weight: bold; padding: 0% 15%;">It is a perfect solution to charge any type of electric vehicle in residential societies, offices, malls, restaurants, shops, and petrol pumps.</p>
+                                            <h1>Charge <div class="text-success">Everything <br> Electric</div> </h1>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <img src="assets/images/Ather-Energy-S340-Bike-Photo-3.jpg" class="w-75" alt="">
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6">
-                                    <img src="assets/images/Electric-Car-Charging-Stations-1024x684.jpg" alt="">
-                                </div>
+                        
                         </div>
-                    </div>
-                    </div>
+                        <div class="swiper-slide">
+                            <!-- <div>
+                                <p style="font-weight: bold; padding: 0% 20%;">It is a perfect solution to charge any type of electric vehicle in residential societies, offices, malls, restaurants, shops, and petrol pumps.</p>
+                                <h1>Charge <div class="text-success">Everything <br> Electric</div> </h1>
+                                <img src="assets/images/Electric-Car-Charging-Stations-1024x684.jpg" class="w-75" alt="">
+                            </div> -->
+                         
+                                <div class="row">
+                                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <p style="font-weight: bold; padding: 0% 20%;">It is a perfect solution to charge any type of electric vehicle in residential societies, offices, malls, restaurants, shops, and petrol pumps.</p>
+                                            <h1>Charge <div class="text-success">Everything <br> Electric</div> </h1>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <img src="assets/images/Electric-Car-Charging-Stations-1024x684.jpg" alt="">
+                                    </div>
+                                </div>
+                    
+                        </div>
                     
                     </div>
         
@@ -379,8 +384,8 @@
                 
                 </div>
 
-            </div>
-        </div>
+            <!-- </div>
+        </div> -->
     </div>
 
     <!--******************
@@ -412,7 +417,7 @@
                     <div class="who-benefit d-flex align-items-center justify-content-center" style="border: none; height: auto; background-color: #fdf7f0; padding: 20px; text-align: left;">
                         <div>
                             <p>Rating 5 <img src="assets/images/star.png" style="width: 10px; height: auto; padding-bottom: 5px;" alt=""></p>
-                            <p>I have charged my bike at Purva Venezia using Kazam EV. The interface is simple and also the support team resolved my query very quickly.</p>
+                            <p>I have charged my bike at Purva Venezia using EVERS EV. The interface is simple and also the support team resolved my query very quickly.</p>
                             <p style="text-align: right;"><small>MP Relan</small><br><small>App store</small></p>
                         </div>
                         
