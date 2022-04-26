@@ -490,7 +490,7 @@ Who benefit css start
 ************************************/
 .who-benefit {
     width: 100%;
-    height: 250px;
+    min-height: 250px;
     text-align: center;
     border: 1px solid #dbdbdb;
     border-radius: 8px;
