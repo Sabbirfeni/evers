@@ -24,7 +24,7 @@ h2 {
     margin-bottom: 40px;
 }
 h5 {
-    font-size: clamp(0.8rem, 2.1vw, 1rem);
+    font-size: clamp(0.8rem, 2.1vw, 0.95rem);
 }
 p {
     font-size: clamp(0.8rem, 1.8vw, 1rem);
@@ -34,11 +34,12 @@ p {
     padding: 10px 40px;
     font-weight: 500;
     margin-top: 20px;
-}
-.button-bg {
     background-color: #24a213;
     color: white;
 }
+/* .button-bg {
+    
+} */
 .button-bg:hover {
     background-color: #219113;
     color: white;
@@ -216,7 +217,7 @@ side-panel css Start
     display: block;
     transition: 0.3s;
   }
-  
+
   .sidepanel a:hover {
     color: #f1f1f1;
   }
@@ -245,7 +246,7 @@ side-panel css Start
       left: 0px;
     }
 
-    sideContact
+    
 /************************************
 Sidebar css start
 ************************************/
@@ -623,6 +624,9 @@ CMS css start
     position: relative;
     padding: 40px;
     background-color: #24a213;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .CMS img {
     width: 80px;
@@ -796,15 +800,6 @@ Slider css end
 
 
 
-
-
-
-
-
-
-
-
-
 /************************************
 Media query start
 ************************************/
@@ -900,6 +895,18 @@ Media query start
     }
     .dropdown-content a {
         color: #24a213;
+    }
+    .CMS {
+        height: 235px;
+        padding: 25px;
+    }
+    .CMS img {
+        width: 45px;
+        height: 45px;
+    }
+    .which-charging {
+        text-align: center;
+        padding-bottom: 20px;
     }
 }
 /************************************
