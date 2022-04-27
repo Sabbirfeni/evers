@@ -40,7 +40,7 @@ p {
 /* .button-bg {
     
 } */
-.button-bg:hover {
+.btn:hover {
     background-color: #219113;
     color: white;
 }
