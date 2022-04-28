@@ -550,7 +550,7 @@ Our application css start
     margin-top: 20px;
 }
 .app-download:hover {
-    background-color: #f0f0f0;
+    background-color: #444444;
 }
 .app-download img {
     width: 30px;
