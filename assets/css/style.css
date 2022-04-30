@@ -615,7 +615,7 @@ CMS css start
 
 .CMS {
     width: 100%;
-    height: 250px;
+    height: 220px;
     text-align: center;
     border: 1px solid #dbdbdb;
     border-radius: 8px;
@@ -629,8 +629,8 @@ CMS css start
     justify-content: center;
 }
 .CMS img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     margin-bottom: 30px;
 }
 /************************************
@@ -897,8 +897,8 @@ Media query start
         color: #24a213;
     }
     .CMS {
-        height: 235px;
-        padding: 25px;
+        height: 200px;
+        padding: 20px;
     }
     .CMS img {
         width: 45px;
