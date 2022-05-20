@@ -139,7 +139,6 @@ header {
 	/* padding: 16px; */
 	font-size: 16px;
 	border: none;
-    margin-left: -8px;
   }
   
 .dropdown {
@@ -843,6 +842,7 @@ Media query start
     }
     .hero  {
         height: 130vh;
+        text-align: center;
     }
     .hero-digital {
         height: 100vh;
@@ -899,6 +899,30 @@ Media query start
       }
     .dropdown-content a {
         color: #24a213;
+    }
+    .sidepanel li {
+        margin-bottom: 17px;
+    }
+    .dropbtn {
+        background-color: #04aa6d00;
+        /* color: black; */
+        /* padding: 16px; */
+        font-size: 16px;
+        border: none;
+      }
+      
+    .dropdown-content {
+        background-color: #24a213;
+        width: 150px;
+        border-radius: 8px;
+        top: 75px;
+        left: 25px;
+    }
+      
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        font-size: 14px;
     }
     .CMS {
         height: 200px;
