@@ -370,7 +370,7 @@
                 <p>Let our experts help you</p>
                 <div class="row">
                     <div class="col-12">
-                        <form>
+                        <form method="post">
                             
                             <div class="mb-3">
                               <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
@@ -807,27 +807,31 @@
                     <h4>let our experts help you</h4>
                 </div>
                 <div class="col-md-6 p-5">
-                    <form>
+                    <form method="post">
+                            
                         <div class="mb-3">
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name">
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
                         </div>
                         <div class="mb-3">
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your phone number">
-                        </div>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                          </div>
                         <div class="mb-3">
-                            <select name="cars" id="cars" class="w-100 p-2 rounded">
+                            <input type="number" class="form-control" id="phoneNumber" placeholder="+************* Phone number">
+                          </div>
+                        <div class="mb-3">
+                            <select name="cars" id="country" class="w-100 p-2 rounded">
                                 <option value="volvo">Country</option>
-                                <option value="saab">India</option>
-                                <option value="opel">UAE</option>
-                                <option value="audi">England</option>
-                                <option value="audi">America</option>
-                                <option value="audi">Japan</option>
+                                <option value="India">India</option>
+                                <option value="UAE">UAE</option>
+                                <option value="England">England</option>
+                                <option value="USA">USA</option>
+                                <option value="Japan">Japan</option>
                               </select>
                           </div>
                           <div class="mb-3">
-                            <input type="text" class="form-control" id="" placeholder="Query">
+                            <input type="text" class="form-control" id="query" placeholder="Query">
                           </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="submit" class="btn btn-success border" onclick="sendEmail()">Submit</button>
                       </form>
                 </div>
             </div>
