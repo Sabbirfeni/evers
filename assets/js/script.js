@@ -2,11 +2,11 @@
 // Sidebar js start
 // ********************************
 function openNav() {
-    document.getElementById("mySidepanel").style.width = "250px";
+    document.getElementById("mySidePanel").style.width = "250px";
   }
   
   function closeNav() {
-    document.getElementById("mySidepanel").style.width = "0";
+    document.getElementById("mySidePanel").style.width = "0";
   }
 
   function closeContact() {
@@ -60,34 +60,34 @@ function openNav() {
 
 
 //  Tab js here
-    function openTab(evt, tabName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(tabName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
-    function buttonNext(event, nextName) {
-        tabcontent = document.getElementsByClassName("tabcontent");
-        tablinks = document.getElementsByClassName("tablinks");
-        var divName = event.currentTarget.parentNode.parentNode.getElementsByTagName('div');
-        for (var i = 0; i < tablinks.length; i++) {
-            if (nextName == divName[i].id) {
-                tablinks[i].className = "tablinks active";
-                tabcontent[i].style.display = "block";
-            }
-            else {
-                tablinks[i].className = "tablinks";
-                tabcontent[i].style.display = "none";
-            }
-        }
-    }
+    // function openTab(evt, tabName) {
+    //     var i, tabcontent, tablinks;
+    //     tabcontent = document.getElementsByClassName("tabcontent");
+    //     for (i = 0; i < tabcontent.length; i++) {
+    //         tabcontent[i].style.display = "none";
+    //     }
+    //     tablinks = document.getElementsByClassName("tablinks");
+    //     for (i = 0; i < tablinks.length; i++) {
+    //         tablinks[i].className = tablinks[i].className.replace(" active", "");
+    //     }
+    //     document.getElementById(tabName).style.display = "block";
+    //     evt.currentTarget.className += " active";
+    // }
+    // function buttonNext(event, nextName) {
+    //     tabcontent = document.getElementsByClassName("tabcontent");
+    //     tablinks = document.getElementsByClassName("tablinks");
+    //     var divName = event.currentTarget.parentNode.parentNode.getElementsByTagName('div');
+    //     for (var i = 0; i < tablinks.length; i++) {
+    //         if (nextName == divName[i].id) {
+    //             tablinks[i].className = "tablinks active";
+    //             tabcontent[i].style.display = "block";
+    //         }
+    //         else {
+    //             tablinks[i].className = "tablinks";
+    //             tabcontent[i].style.display = "none";
+    //         }
+    //     }
+    // }
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
 
